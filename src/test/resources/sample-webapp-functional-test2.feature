@@ -19,13 +19,13 @@ Validate the result populated is as expected.
   
   @SMOKE
     Examples: 
-      | targetbrowser | firststring | secondstring | resultstring | 
+      | browsertarget  | firststring | secondstring | resultstring | 
       | ie            | uvw1        | xyz1         | uvw1xyz1     | 
       | chrome        | uvw1        | xyz1         | uvw1xyz1     | 
   
   @FUNCTIONAL
     Examples: 
-      | targetbrowser | firststring | secondstring | resultstring | 
+      | browsertarget  | firststring | secondstring | resultstring | 
       | ie            | uvw2        | xyz2         | uvw2xyz2     | 
       | chrome        | uvw2        | xyz2         | uvw2xyz2     | 
       | ie            | uvw3        | xyz3         | uvw3xyz3     | 

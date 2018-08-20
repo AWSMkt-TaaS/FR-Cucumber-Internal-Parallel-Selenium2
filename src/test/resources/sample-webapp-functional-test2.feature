@@ -11,6 +11,11 @@ Validate the result populated is as expected.
     And Then I have entered <secondstring> into the second text box
     When I press concatenate button
     Then the result should be <resultstring> on the third text box
+    
+  @SMOKE1
+    Examples: 
+      | targetbrowser | firststring | secondstring | resultstring |
+      | chrome        | uvw1        | xyz1         | uvw1xyz1     | 
   
   @SMOKE
     Examples: 

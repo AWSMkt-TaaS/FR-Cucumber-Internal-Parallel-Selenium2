@@ -15,7 +15,7 @@ Validate the result populated is as expected.
   @SMOKE1
     Examples: 
       | targetbrowser | firststring | secondstring | resultstring |
-      | chrome        | uvw1        | xyz1         | uvw1xyz1     | 
+      | ie            | uvw1        | xyz1         | uvw1xyz1     | 
   
   @SMOKE
     Examples: 

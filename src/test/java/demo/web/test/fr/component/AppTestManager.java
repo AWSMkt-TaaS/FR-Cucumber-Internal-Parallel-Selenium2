@@ -62,8 +62,8 @@ public class AppTestManager {
 	public void initBrowser() throws Exception {
 		System.out.println("selected browser=" + this.getBrowser());
 		DesiredCapabilities cap = null;
-		String Node = "http://10.20.11.51:4445/wd/hub";
-		//String Node = "http://10.20.11.20:31215/wd/hub";
+		//String Node = "http://10.20.11.51:4445/wd/hub";
+		String Node = "http://10.20.11.20:31215/wd/hub";
 		if (this.getBrowser().equals("chrome")) {			
 	 		cap = DesiredCapabilities.chrome();	 		
 			//driver = new ChromeDriver(RemoteWebDriverManager.getChromeOptions());

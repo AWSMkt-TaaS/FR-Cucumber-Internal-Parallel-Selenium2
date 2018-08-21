@@ -63,7 +63,8 @@ public class AppTestManager {
 		System.out.println("selected browser=" + this.getBrowser());
 		DesiredCapabilities cap = null;
 		//String Node = "http://10.20.11.51:4445/wd/hub";
-		String Node = "http://10.20.11.20:31215/wd/hub";
+		//String Node = "http://10.20.11.20:31215/wd/hub";
+		String Node = "http://10.20.11.20:32083/wd/hub";
 		if (this.getBrowser().equals("chrome")) {			
 	 		cap = DesiredCapabilities.chrome();	 		
 			//driver = new ChromeDriver(RemoteWebDriverManager.getChromeOptions());
@@ -86,7 +87,7 @@ public class AppTestManager {
 		}
 		driver = new Augmenter().augment(new RemoteWebDriver(new URL(Node), cap));
 		//driver =  new RemoteWebDriver(new URL(Node), cap);
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
                 driver.manage().timeouts().implicitlyWait(1, TimeUnit.MINUTES);
 		
 	}

@@ -14,23 +14,26 @@ Validate the result populated is as expected.
     
   @SMOKE1
     Examples: 
-      | browsertarget | firststring | secondstring | resultstring |
-      | chrome        | uvw1        | xyz1         | uvw1xyz1     | 
-      | firefox        | uvw1        | xyz1         | uvw1xyz1     | 
+      | browsertarget | firststring | secondstring | resultstring   |
+      | ie            | uvw11        | xyz1         | uvw11xyz1     | 
+      | chrome        | uvw12        | xyz1         | uvw12xyz1     | 
+      | firefox       | uvw13        | xyz1         | uvw13xyz1     | 
   
   @SMOKE
     Examples: 
-      | browsertarget  | firststring | secondstring | resultstring | 
-      | ie            | uvw1        | xyz1         | uvw1xyz1     | 
-      | chrome        | uvw1        | xyz1         | uvw1xyz1     | 
+      | browsertarget  | firststring | secondstring | resultstring  | 
+      | ie            | uvw14        | xyz1         | uvw14xyz1     | 
+      | chrome        | uvw15        | xyz1         | uvw15xyz1     | 
+      | firefox       | uvw16        | xyz1         | uvw16xyz1     |
   
   @FUNCTIONAL
     Examples: 
-      | browsertarget  | firststring | secondstring | resultstring | 
-      | ie            | uvw2        | xyz2         | uvw2xyz2     | 
-      | chrome        | uvw2        | xyz2         | uvw2xyz2     | 
-      | ie            | uvw3        | xyz3         | uvw3xyz3     | 
-      | chrome        | uvw3        | xyz3         | uvw3xyz3     | 
+      | browsertarget  | firststring | secondstring | resultstring   | 
+      | ie             | uvw21        | xyz2         | uvw21xyz2     | 
+      | chrome         | uvw22        | xyz2         | uvw22xyz2     | 
+      | ie             | uvw33        | xyz3         | uvw33xyz3     | 
+      | chrome         | uvw34        | xyz3         | uvw34xyz3     | 
+      | firefox        | uvw15        | xyz1         | uvw15xyz1     |
 
       
       

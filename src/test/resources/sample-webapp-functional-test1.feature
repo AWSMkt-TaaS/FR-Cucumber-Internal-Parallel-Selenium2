@@ -17,11 +17,15 @@ Feature: Item1 - Validate the web site pages
       | browsertarget | firststring | secondstring | resultstring |
       | ie            | abc1        | def1         | abc1def1     |
       | chrome        | abc1        | def1         | abc1def1     |
+      | firefox        | abc1       | def1         | abc1def1     |
+
 
     @FUNCTIONAL
     Examples: 
       | browsertarget | firststring | secondstring | resultstring |
       | ie            | abc2        | def2         | abc2def2     |
       | chrome        | abc2        | def2         | abc2def2     |
+      | firefox       | abc2        | def2         | abc2def2     |
       | ie            | abc3        | def3         | abc3def3     |
       | chrome        | abc3        | def3         | abc3def3     |
+      | firefox       | abc3        | def3         | abc3def3     |
